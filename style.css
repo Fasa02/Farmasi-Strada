@@ -241,14 +241,13 @@ header.sticky .navigation li a:hover {
 .kartu{
     position: relative;
     display: flex;
-    width: 40%;
-    margin: 0% 10%;
-    margin-top: 0%;
+    width: 50%;
+    margin: auto;
 }
 
 .title{
     display: flex;
-    width: 80%;
+    width: 50%;
     padding-top: 3%;
     margin: auto;
     margin-bottom: -1%;
@@ -256,22 +255,19 @@ header.sticky .navigation li a:hover {
 
 .title .ttl{
     margin: auto;
-    margin-right: 3%;
-    margin-left: 3%;
     display: flex;
     width: 100%;
+    margin: auto;
 }
 
 .ttl{
     display: flex;
-    width: 50%;
-    margin-left: 8.5%;
+    width: 50%;;
+    margin: auto;
 }
 
 .title .ttle{
     margin: auto;
-    margin-right: 3%;
-    margin-left: 3%;
     width: 100%;
 }
 
@@ -288,16 +284,11 @@ header.sticky .navigation li a:hover {
     padding-left: 5%;
 }
 
-
-.narasi{
-    position: relative;
-    display:block;
-    width: 100%;
-    text-align: center;
-    padding-top: 0%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 10%;
+.atasan{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
 }
 
 #inovasi{
@@ -1021,7 +1012,7 @@ footer {
         position: relative;
         display: block;
         width: 90%;
-        margin: 0% 6%;
+        margin: auto;
     }
 
     .kiri{
@@ -1042,6 +1033,10 @@ footer {
         padding: 0;
     }
 
+    .atasan{
+        display: flex;
+        flex-direction: column;
+    }
   
     /*tombol*/
     .tombol {
