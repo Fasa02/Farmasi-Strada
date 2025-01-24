@@ -740,20 +740,21 @@ footer {
     }
 
     header .navigation.active {
-        width: 40%;
-        height: calc(100% - 60px);
+        width: 50%;
+        height: calc(100%);
         position: fixed;
-        top: 60px;
+        top:12%;
         right: 0%;
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        background: #154880;
+        border-radius: 10px;
+        background: #402b86c9; 
     }
 
     header .navigation li {
-        margin-left: 0;
+        margin: auto;
+        margin-top:10%;
+        margin-bottom: 1%;
     }
 
     header .navigation li a {
@@ -933,20 +934,22 @@ footer {
     }
 
     header .navigation.active {
-        width: 100%;
-        height: calc(100% - 60px);
+        width: 50%;
+        height: calc(100%);
         position: fixed;
-        top: 12%;
-        left: 0%;
+        top:12%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        background: #1D96A1;
+        flex-direction:column-reverse;
+        background: #402b86d8;
+        border-radius: 10px;
     }
 
     header .navigation li {
-        margin-left: 0;
+        margin:auto;
+        margin-top: 10%;
+        margin-bottom: 1%;
     }
 
     header .navigation li a {
@@ -1038,110 +1041,6 @@ footer {
         flex-direction: column;
     }
   
-    /*tombol*/
-    .tombol {
-        text-decoration: none;
-        color: #000;
-        margin: 10px;
-        margin-top: 12px;
-        width: 250px;
-        text-align: center;
-        transition: 0.3s;
-    }
-    
-
-    
-    .tombol img {
-        width: 70px;
-        height: 70px;
-        margin-bottom: 10px;
-    }
-    
-    .tombol p {
-        font-size: 16px;
-    }
-
-    .tombols {
-        text-decoration: none;
-        color: #000;
-        margin: 10px;
-        margin-top: 12px;
-        padding: 20px;
-        border: 2px solid #111;
-        border-radius: 30px;
-        width: 250px;
-        text-align: center;
-        transition: 0.3s;
-    }
-    
-    .tombols:hover {
-        background-color: #ddd;
-    }
-    
-    .tombols img {
-        width: 70px;
-        height: 70px;
-        margin-bottom: 10px;
-    }
-    
-    .tombols p {
-        font-size: 16px;
-    }
-    
-    .tombolss {
-        text-decoration: none;
-        color: #000;
-        margin: 10px;
-        margin-top: 12px;
-        padding: 20px;
-        border: 2px solid #111;
-        border-radius: 30px;
-        width: 250px;
-        text-align: center;
-        transition: 0.3s;
-    }
-    
-    .tombolss:hover {
-        background-color: #ddd;
-    }
-    
-    .tombolss img {
-        width: 80px;
-        height: 80px;
-        margin-bottom: 10px;
-    }
-    
-    .tombolss p {
-        font-size: 16px;
-    }
-
-    .tombolsss {
-        text-decoration: none;
-        color: #000;
-        margin: 10px;
-        margin-top: 12px;
-        padding: 20px;
-        border: 2px solid #111;
-        border-radius: 30px;
-        width: 250px;
-        text-align: center;
-        transition: 0.3s;
-    }
-    
-    .tombolsss:hover {
-        background-color: #ddd;
-    }
-    
-    .tombolsss img {
-        width: 100px;
-        height: 80px;
-        margin-bottom: 10px;
-    }
-    
-    .tombolsss p {
-        font-size: 16px;
-    }
-
 
     .footer .footer-left img {
         width: 100%;
