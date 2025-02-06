@@ -35,6 +35,26 @@ function showSlides(n) {
     setTimeout(showSlides, 4000); // Change image every 2 seconds
   }
 
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+  const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+  
+  // Toggle menu untuk mobile
+  menuToggle.addEventListener("click", function () {
+      navMenu.classList.toggle("active");
+  });
+  
+  // Toggle dropdown
+  dropdownToggles.forEach(toggle => {
+      toggle.addEventListener("click", function () {
+          const dropdownMenu = this.nextElementSibling;
+          dropdownMenu.classList.toggle("open");
+      });
+  });
+});
+
 
 
 
